@@ -6,6 +6,8 @@
     "start": "node limsy"
   },
   "dependencies": {
+    "cheerio":"*",
+    "request":"*",
     "zombie":"*",
     "underscore":"*"
   }
