@@ -1,2 +1,2 @@
 var limsscrape = require("./limsscrape.js");
-limsscrape.get("L20-2");
+limsscrape.get(process.argv[2]);
