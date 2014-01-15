@@ -1,0 +1,12 @@
+{
+  "name": "limsy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node limsy"
+  },
+  "dependencies": {
+    "zombie":"*",
+    "underscore":"*"
+  }
+}
