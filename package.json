@@ -2,11 +2,16 @@
   "name": "limsy",
   "version": "0.0.1",
   "private": true,
+  "main": "limsscrape.js",
   "scripts": {
-    "start": "node limsy"
+    "start": "node limsy",
+     "test": "node test/index.js"
   },
   "dependencies": {
-    "zombie":"*",
-    "underscore":"*"
+    "zombie": "*",
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "tap": "~0.4.8"
   }
 }
