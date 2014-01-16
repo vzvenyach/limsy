@@ -5,7 +5,8 @@ exports.get = function (lawNo, callback) {
 
     //Go to the LIMS page
     var browser = new Browser({ debug: false, runScripts: false });
-    browser.visit("http://dcclims1.dccouncil.us/lims/legislation.aspx?LegNo=" + lawNo, function() {
+    var url = "http://dcclims1.dccouncil.us/lims/legislation.aspx?LegNo=" + lawNo;
+    browser.visit(url, function() {
 
         var fields = ["LegislationTitle","LegislationNo","ShortTitle","ActNoGI","LawNo","DateExpirationGI","DateEnactmentGI","DateEffectiveGI","DateIntroduction","PlaceIntroduction","DateCirculation","CommitteeReferral","Comments","OfficialReferral","DateReReferral","CommitteeReassign","CommentsReassign","DatePublicNotice","IntroducedBy","RequestedBy","CoSponsoredBy","DateCommitteeAction","ReportFiled","COWAction","DateFirstVote","DateFinalVote","DateThirdVote","DateReconsideration","DateTransmittedMayor","DateReviewEnd","DateSigned","Signature","DateReturned","ReturnedSignature","DateOverride","ActNo","DateEnactment","DateVeto","DateTransmittedCongress","DateReTransmitted","DateDCLaw","DatePublication","DCLawVol","DCLawPage","DCLaw","DCLawNo","DateEffective","DateApplicability","DateExpiration"];
 
@@ -18,9 +19,10 @@ exports.get = function (lawNo, callback) {
         var versions = browser.queryAll("A[id^=DocumentRepeater]");
         var v = [];
 		versions.forEach(function (d) {
-            v.push(d.innerHTML + '":"' + d.href);
+            v.push({"version":d.innerHTML,"url":d.href});
         });
         out.versions = v;
+        out.source = url;
         callback(null, out);
     });
 };
