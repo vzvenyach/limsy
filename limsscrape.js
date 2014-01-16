@@ -23,6 +23,6 @@ exports.get = function (lawNo, callback) {
         });
         out.versions = v;
         out.source = url;
-        callback(null, out);
+        callback(null, JSON.stringify(out));
     });
 };
