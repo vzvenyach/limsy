@@ -1,0 +1,286 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'jsonlint',
+1 verbose cli   '-g' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose cache add [ 'jsonlint', null ]
+5 verbose cache add name=undefined spec="jsonlint" args=["jsonlint",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'jsonlint',
+6 verbose parsed url   path: 'jsonlint',
+6 verbose parsed url   href: 'jsonlint' }
+7 silly lockFile ae1977c9-jsonlint jsonlint
+8 verbose lock jsonlint /home/vzvenyach/.npm/ae1977c9-jsonlint.lock
+9 silly lockFile ae1977c9-jsonlint jsonlint
+10 silly lockFile ae1977c9-jsonlint jsonlint
+11 verbose addNamed [ 'jsonlint', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile e5e8837b-jsonlint jsonlint@
+14 verbose lock jsonlint@ /home/vzvenyach/.npm/e5e8837b-jsonlint.lock
+15 silly addNameRange { name: 'jsonlint', range: '*', hasData: false }
+16 verbose url raw jsonlint
+17 verbose url resolving [ 'https://registry.npmjs.org/', './jsonlint' ]
+18 verbose url resolved https://registry.npmjs.org/jsonlint
+19 info trying registry request attempt 1 at 04:20:04
+20 http GET https://registry.npmjs.org/jsonlint
+21 http 200 https://registry.npmjs.org/jsonlint
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Thu, 16 Jan 2014 09:20:04 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+22 silly registry.get     etag: '"7AV8GYDJJFJND3PYVBT8PUHLI"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'content-length': '32407',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '10915',
+22 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1389864004.826177597,VS0,VE49',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'jsonlint', range: '*', hasData: true }
+24 silly addNameRange versions [ 'jsonlint',
+24 silly addNameRange   [ '1.0.0',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.3.1',
+24 silly addNameRange     '1.3.2',
+24 silly addNameRange     '1.4.0',
+24 silly addNameRange     '1.4.1',
+24 silly addNameRange     '1.5.0',
+24 silly addNameRange     '1.5.1',
+24 silly addNameRange     '1.6.0' ] ]
+25 verbose addNamed [ 'jsonlint', '1.6.0' ]
+26 verbose addNamed [ '1.6.0', '1.6.0' ]
+27 silly lockFile 91023203-jsonlint-1-6-0 jsonlint@1.6.0
+28 verbose lock jsonlint@1.6.0 /home/vzvenyach/.npm/91023203-jsonlint-1-6-0.lock
+29 silly lockFile 34569e57--org-jsonlint-jsonlint-1-6-0-tgz https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.0.tgz
+30 verbose lock https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.0.tgz /home/vzvenyach/.npm/34569e57--org-jsonlint-jsonlint-1-6-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.0.tgz',
+31 verbose addRemoteTarball   '88aa46bc289a7ac93bb46cae2d58a187a9bb494a' ]
+32 info retry fetch attempt 1 at 04:20:05
+33 verbose fetch to= /home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/tmp.tgz
+34 http GET https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.0.tgz
+35 http 200 https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.0.tgz
+36 verbose tar unpack /home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/tmp.tgz
+37 silly lockFile adbfa37d-05201-0-7671582887414843-package tar:///home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/package
+38 verbose lock tar:///home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/package /home/vzvenyach/.npm/adbfa37d-05201-0-7671582887414843-package.lock
+39 silly lockFile 263fe2c3-05201-0-7671582887414843-tmp-tgz tar:///home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/tmp.tgz
+40 verbose lock tar:///home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/tmp.tgz /home/vzvenyach/.npm/263fe2c3-05201-0-7671582887414843-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry lib/cli.js
+46 silly gunzTarPerm extractEntry lib/formatter.js
+47 silly gunzTarPerm extractEntry lib/jsonlint.js
+48 silly gunzTarPerm extractEntry Makefile
+49 silly gunzTarPerm extractEntry scripts/bundle.js
+50 silly gunzTarPerm extractEntry src/jsonlint.l
+51 silly gunzTarPerm extractEntry src/jsonlint.y
+52 silly gunzTarPerm extractEntry test/all-tests.js
+53 silly gunzTarPerm extractEntry test/fails/26.json
+54 silly gunzTarPerm extractEntry test/fails/10.json
+55 silly gunzTarPerm extractEntry test/fails/12.json
+56 silly gunzTarPerm extractEntry test/fails/13.json
+57 silly gunzTarPerm extractEntry test/fails/14.json
+58 silly gunzTarPerm extractEntry test/fails/15.json
+59 silly gunzTarPerm extractEntry test/fails/16.json
+60 silly gunzTarPerm extractEntry test/fails/17.json
+61 silly gunzTarPerm extractEntry test/fails/19.json
+62 silly gunzTarPerm extractEntry test/fails/2.json
+63 silly gunzTarPerm extractEntry test/fails/20.json
+64 silly gunzTarPerm extractEntry test/fails/21.json
+65 silly gunzTarPerm extractEntry test/fails/22.json
+66 silly gunzTarPerm extractEntry test/fails/23.json
+67 silly gunzTarPerm extractEntry test/fails/24.json
+68 silly gunzTarPerm extractEntry test/fails/25.json
+69 silly gunzTarPerm extractEntry test/fails/11.json
+70 silly gunzTarPerm extractEntry test/fails/27.json
+71 silly gunzTarPerm extractEntry test/fails/28.json
+72 silly gunzTarPerm extractEntry test/fails/29.json
+73 silly gunzTarPerm extractEntry test/fails/3.json
+74 silly gunzTarPerm extractEntry test/fails/30.json
+75 silly gunzTarPerm extractEntry test/fails/31.json
+76 silly gunzTarPerm extractEntry test/fails/32.json
+77 silly gunzTarPerm extractEntry test/fails/33.json
+78 silly gunzTarPerm extractEntry test/fails/34.json
+79 silly gunzTarPerm extractEntry test/fails/4.json
+80 silly gunzTarPerm extractEntry test/fails/5.json
+81 silly gunzTarPerm extractEntry test/fails/6.json
+82 silly gunzTarPerm extractEntry test/fails/7.json
+83 silly gunzTarPerm extractEntry test/fails/8.json
+84 silly gunzTarPerm extractEntry test/fails/9.json
+85 silly gunzTarPerm extractEntry test/passes/1.json
+86 silly gunzTarPerm extractEntry test/passes/2.json
+87 silly gunzTarPerm extractEntry test/passes/3.json
+88 silly gunzTarPerm extractEntry web/json2.js
+89 silly gunzTarPerm extractEntry web/jsonlint.js
+90 silly gunzTarPerm extractEntry web/jsonlint.html
+91 silly lockFile adbfa37d-05201-0-7671582887414843-package tar:///home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/package
+92 silly lockFile adbfa37d-05201-0-7671582887414843-package tar:///home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/package
+93 silly lockFile 263fe2c3-05201-0-7671582887414843-tmp-tgz tar:///home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/tmp.tgz
+94 silly lockFile 263fe2c3-05201-0-7671582887414843-tmp-tgz tar:///home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/tmp.tgz
+95 verbose tar pack [ '/home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz',
+95 verbose tar pack   '/home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/package' ]
+96 verbose tarball /home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz
+97 verbose folder /home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/package
+98 silly lockFile adbfa37d-05201-0-7671582887414843-package tar:///home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/package
+99 verbose lock tar:///home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/package /home/vzvenyach/.npm/adbfa37d-05201-0-7671582887414843-package.lock
+100 silly lockFile 4241e6c6-h-npm-jsonlint-1-6-0-package-tgz tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz
+101 verbose lock tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz /home/vzvenyach/.npm/4241e6c6-h-npm-jsonlint-1-6-0-package-tgz.lock
+102 silly lockFile adbfa37d-05201-0-7671582887414843-package tar:///home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/package
+103 silly lockFile adbfa37d-05201-0-7671582887414843-package tar:///home/vzvenyach/tmp/npm-4710-sqphs41y/1389864005201-0.7671582887414843/package
+104 silly lockFile 4241e6c6-h-npm-jsonlint-1-6-0-package-tgz tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz
+105 silly lockFile 4241e6c6-h-npm-jsonlint-1-6-0-package-tgz tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz
+106 silly lockFile dd745e59-nyach-npm-jsonlint-1-6-0-package /home/vzvenyach/.npm/jsonlint/1.6.0/package
+107 verbose lock /home/vzvenyach/.npm/jsonlint/1.6.0/package /home/vzvenyach/.npm/dd745e59-nyach-npm-jsonlint-1-6-0-package.lock
+108 silly lockFile dd745e59-nyach-npm-jsonlint-1-6-0-package /home/vzvenyach/.npm/jsonlint/1.6.0/package
+109 silly lockFile dd745e59-nyach-npm-jsonlint-1-6-0-package /home/vzvenyach/.npm/jsonlint/1.6.0/package
+110 verbose tar unpack /home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz
+111 silly lockFile ae7fe52a-nyach-npm-jsonlint-1-6-0-package tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package
+112 verbose lock tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package /home/vzvenyach/.npm/ae7fe52a-nyach-npm-jsonlint-1-6-0-package.lock
+113 silly lockFile 4241e6c6-h-npm-jsonlint-1-6-0-package-tgz tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz
+114 verbose lock tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz /home/vzvenyach/.npm/4241e6c6-h-npm-jsonlint-1-6-0-package-tgz.lock
+115 silly gunzTarPerm modes [ '755', '644' ]
+116 silly gunzTarPerm extractEntry package.json
+117 silly gunzTarPerm extractEntry .npmignore
+118 silly gunzTarPerm extractEntry README.md
+119 silly gunzTarPerm extractEntry Makefile
+120 silly gunzTarPerm extractEntry lib/cli.js
+121 silly gunzTarPerm extractEntry lib/formatter.js
+122 silly gunzTarPerm extractEntry lib/jsonlint.js
+123 silly gunzTarPerm extractEntry scripts/bundle.js
+124 silly gunzTarPerm extractEntry src/jsonlint.l
+125 silly gunzTarPerm extractEntry src/jsonlint.y
+126 silly gunzTarPerm extractEntry test/all-tests.js
+127 silly gunzTarPerm extractEntry test/fails/26.json
+128 silly gunzTarPerm extractEntry test/fails/10.json
+129 silly gunzTarPerm extractEntry test/fails/12.json
+130 silly gunzTarPerm extractEntry test/fails/13.json
+131 silly gunzTarPerm extractEntry test/fails/14.json
+132 silly gunzTarPerm extractEntry test/fails/15.json
+133 silly gunzTarPerm extractEntry test/fails/16.json
+134 silly gunzTarPerm extractEntry test/fails/17.json
+135 silly gunzTarPerm extractEntry test/fails/19.json
+136 silly gunzTarPerm extractEntry test/fails/2.json
+137 silly gunzTarPerm extractEntry test/fails/20.json
+138 silly gunzTarPerm extractEntry test/fails/21.json
+139 silly gunzTarPerm extractEntry test/fails/22.json
+140 silly gunzTarPerm extractEntry test/fails/23.json
+141 silly gunzTarPerm extractEntry test/fails/24.json
+142 silly gunzTarPerm extractEntry test/fails/25.json
+143 silly gunzTarPerm extractEntry test/fails/11.json
+144 silly gunzTarPerm extractEntry test/fails/27.json
+145 silly gunzTarPerm extractEntry test/fails/28.json
+146 silly gunzTarPerm extractEntry test/fails/29.json
+147 silly gunzTarPerm extractEntry test/fails/3.json
+148 silly gunzTarPerm extractEntry test/fails/30.json
+149 silly gunzTarPerm extractEntry test/fails/31.json
+150 silly gunzTarPerm extractEntry test/fails/32.json
+151 silly gunzTarPerm extractEntry test/fails/33.json
+152 silly gunzTarPerm extractEntry test/fails/34.json
+153 silly gunzTarPerm extractEntry test/fails/4.json
+154 silly gunzTarPerm extractEntry test/fails/5.json
+155 silly gunzTarPerm extractEntry test/fails/6.json
+156 silly gunzTarPerm extractEntry test/fails/7.json
+157 silly gunzTarPerm extractEntry test/fails/8.json
+158 silly gunzTarPerm extractEntry test/fails/9.json
+159 silly gunzTarPerm extractEntry test/passes/1.json
+160 silly gunzTarPerm extractEntry test/passes/2.json
+161 silly gunzTarPerm extractEntry test/passes/3.json
+162 silly gunzTarPerm extractEntry web/json2.js
+163 silly gunzTarPerm extractEntry web/jsonlint.js
+164 silly gunzTarPerm extractEntry web/jsonlint.html
+165 silly lockFile ae7fe52a-nyach-npm-jsonlint-1-6-0-package tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package
+166 silly lockFile ae7fe52a-nyach-npm-jsonlint-1-6-0-package tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package
+167 silly lockFile 4241e6c6-h-npm-jsonlint-1-6-0-package-tgz tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz
+168 silly lockFile 4241e6c6-h-npm-jsonlint-1-6-0-package-tgz tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz
+169 verbose chmod /home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz 644
+170 verbose chown /home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz [ 1000, 1000 ]
+171 silly lockFile 34569e57--org-jsonlint-jsonlint-1-6-0-tgz https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.0.tgz
+172 silly lockFile 34569e57--org-jsonlint-jsonlint-1-6-0-tgz https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.0.tgz
+173 silly lockFile 91023203-jsonlint-1-6-0 jsonlint@1.6.0
+174 silly lockFile 91023203-jsonlint-1-6-0 jsonlint@1.6.0
+175 silly lockFile e5e8837b-jsonlint jsonlint@
+176 silly lockFile e5e8837b-jsonlint jsonlint@
+177 silly resolved [ { author:
+177 silly resolved      { name: 'Zach Carter',
+177 silly resolved        email: 'zach@carter.name',
+177 silly resolved        url: 'http://zaa.ch' },
+177 silly resolved     name: 'jsonlint',
+177 silly resolved     description: 'Validate JSON',
+177 silly resolved     keywords: [ 'json', 'validation', 'lint', 'jsonlint' ],
+177 silly resolved     version: '1.6.0',
+177 silly resolved     preferGlobal: true,
+177 silly resolved     repository: { type: 'git', url: 'git://github.com/zaach/jsonlint.git' },
+177 silly resolved     bugs: { url: 'http://github.com/zaach/jsonlint/issues' },
+177 silly resolved     main: 'lib/jsonlint.js',
+177 silly resolved     bin: { jsonlint: 'lib/cli.js' },
+177 silly resolved     engines: { node: '>= 0.6' },
+177 silly resolved     dependencies: { nomnom: '>= 1.5.x', JSV: '>= 4.0.x' },
+177 silly resolved     devDependencies: { test: '*', jison: '*', 'uglify-js': '*' },
+177 silly resolved     scripts: { test: 'node test/all-tests.js' },
+177 silly resolved     homepage: 'http://zaach.github.com/jsonlint/',
+177 silly resolved     optionalDependencies: {},
+177 silly resolved     readme: 'JSON Lint\n=========\n\nA pure [JavaScript version](http://zaach.github.com/jsonlint/) of the service provided at [jsonlint.com](http://jsonlint.com).\n\n## Command line interface\nInstall jsonlint with npm to use the command line interface:\n\n    npm install jsonlint -g\n\nValidate a file like so:\n\n    jsonlint myfile.json\n\nor pipe input into stdin:\n\n    cat myfile.json | jsonlint\n\njsonlint will either report a syntax error with details or pretty print the source if it is valid.\n\n### Options\n\n    $ jsonlint -h\n\n    usage: jsonlint <file> [options]\n\n    file     file to parse; otherwise uses stdin\n\n    options:\n       -v, --version            print version and exit\n       -s, --sort-keys          sort object keys\n       -i, --in-place           overwrite the file\n       -t CHAR, --indent CHAR   character(s) to use for indentation\n       -c, --compact            compact error display\n       -V, --validate           a JSON schema to use for validation\n       -e, --environment        which specification of JSON Schema the validation file uses\n       -q, --quiet              do not print the parsed json to STDOUT\n\n\n## Module interface\n\nI\'m not sure why you wouldn\'t use the built in `JSON.parse` but you can use jsonlint from a CommonJS module:\n\n    var jsonlint = require("jsonlint");\n\n    jsonlint.parse(\'{"creative?": false}\');\n\nIt returns the parsed object or throws an `Error`.\n\n## Vim Plugins\n\n* [Syntastic](http://www.vim.org/scripts/script.php?script_id=2736)\n* [sourcebeautify](http://www.vim.org/scripts/script.php?script_id=4079) \n\n## MIT License\n\nCopyright (C) 2012 Zachary Carter\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+177 silly resolved     readmeFilename: 'README.md',
+177 silly resolved     _id: 'jsonlint@1.6.0',
+177 silly resolved     dist: { shasum: '613e2fd31f4a83f35529bdcfa823c09a39437093' },
+177 silly resolved     _from: 'jsonlint@',
+177 silly resolved     _resolved: 'https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.0.tgz' } ]
+178 info install jsonlint@1.6.0 into /usr/local/lib
+179 info installOne jsonlint@1.6.0
+180 info /usr/local/lib/node_modules/jsonlint unbuild
+181 verbose tar unpack /home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz
+182 silly lockFile 00a10d1e--local-lib-node-modules-jsonlint tar:///usr/local/lib/node_modules/jsonlint
+183 verbose lock tar:///usr/local/lib/node_modules/jsonlint /home/vzvenyach/.npm/00a10d1e--local-lib-node-modules-jsonlint.lock
+184 silly lockFile 4241e6c6-h-npm-jsonlint-1-6-0-package-tgz tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz
+185 verbose lock tar:///home/vzvenyach/.npm/jsonlint/1.6.0/package.tgz /home/vzvenyach/.npm/4241e6c6-h-npm-jsonlint-1-6-0-package-tgz.lock
+186 silly gunzTarPerm modes [ '755', '644' ]
+187 error Error: EACCES, mkdir '/usr/local/lib/node_modules/jsonlint'
+187 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/jsonlint']
+187 error   errno: 3,
+187 error   code: 'EACCES',
+187 error   path: '/usr/local/lib/node_modules/jsonlint',
+187 error   fstream_type: 'Directory',
+187 error   fstream_path: '/usr/local/lib/node_modules/jsonlint',
+187 error   fstream_class: 'DirWriter',
+187 error   fstream_stack:
+187 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+187 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+187 error      'Object.oncomplete (fs.js:107:15)' ] }
+188 error Please try running this command again as root/Administrator.
+189 error System Linux 3.8.0-19-generic
+190 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "jsonlint" "-g"
+191 error cwd /home/vzvenyach/Documents/Coding/limsy
+192 error node -v v0.10.22
+193 error npm -v 1.3.14
+194 error path /usr/local/lib/node_modules/jsonlint
+195 error fstream_path /usr/local/lib/node_modules/jsonlint
+196 error fstream_type Directory
+197 error fstream_class DirWriter
+198 error code EACCES
+199 error errno 3
+200 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/jsonlint'
+201 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+201 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+201 error fstream_stack Object.oncomplete (fs.js:107:15)
+202 verbose exit [ 3, true ]
