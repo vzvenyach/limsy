@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "zombie": "*",
+    "express":"*",
     "underscore": "*",
+    "consolidate":"*",
     "mongoose":"*"
   },
   "devDependencies": {
